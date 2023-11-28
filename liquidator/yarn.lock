@@ -1799,6 +1799,13 @@
   dependencies:
     regenerator-runtime "^0.13.10"
 
+"@babel/runtime@^7.21.0":
+  version "7.23.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.4.tgz#36fa1d2b36db873d25ec631dcc4923fdc1cf2e2e"
+  integrity sha512-2Yv65nlWnWlSpe3fXEyX5i7fx5kIKo4Qbcj+hMO0odwaneFjfXw5fdum+4yL20O0QiaHpia0cYQ9xpNMqrBwHg==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/runtime@^7.8.4":
   version "7.20.13"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
@@ -2332,6 +2339,14 @@
     retry "0.13.1"
     secrets.js-grempe "2.0.0"
     typescript "^4.7.4"
+
+"@cosmology/lcd@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@cosmology/lcd/-/lcd-0.12.0.tgz#a6594fc00a8c84c7341e90840627e62a7e63fd1b"
+  integrity sha512-f2mcySYO1xdislAhuWtNFmg4q/bzY3Aem2UkDzYzI0ZELVev5i2Pi0bQrYUNTeNg1isAo0Kyrdqj/4YPqEwjGA==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+    axios "0.27.2"
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -5647,7 +5662,7 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
-osmojs@0.36.0, osmojs@^0.36.0:
+osmojs@0.36.0:
   version "0.36.0"
   resolved "https://registry.npmjs.org/osmojs/-/osmojs-0.36.0.tgz"
   integrity sha512-VKRMi1j7S3g1MmI9AurtioR3XOb9LSkhSRnfFs29CYKdIWx2QK8GIhkR8q1b80bJQvgpKnphcDKGPJGTedTuXA==
@@ -5660,6 +5675,17 @@ osmojs@0.36.0, osmojs@^0.36.0:
     "@osmonauts/lcd" "^0.8.0"
     long "^5.2.0"
     protobufjs "^6.11.3"
+
+osmojs@^16.4.0:
+  version "16.5.1"
+  resolved "https://registry.yarnpkg.com/osmojs/-/osmojs-16.5.1.tgz#38f2fe3cd65dbd4e4b415e9f22f387a24b634155"
+  integrity sha512-V2Q2yMt7Paax6i+S5Q1l29Km0As/waXKmSVRe8gtd9he42kcbkpwwk/QUCvgS98XsL7Qz+vas2Tca016uBQHTQ==
+  dependencies:
+    "@cosmjs/amino" "0.29.3"
+    "@cosmjs/proto-signing" "0.29.3"
+    "@cosmjs/stargate" "0.29.3"
+    "@cosmjs/tendermint-rpc" "^0.29.3"
+    "@cosmology/lcd" "^0.12.0"
 
 p-limit@^2.2.0:
   version "2.3.0"
@@ -5923,6 +5949,11 @@ regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
+
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
 
 regenerator-transform@^0.15.1:
   version "0.15.1"

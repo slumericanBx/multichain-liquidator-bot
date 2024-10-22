@@ -12,7 +12,7 @@
     "@cosmjs/stargate": "^0.29.5",
     "@cosmjs/amino": "0.29.5",
     "cosmjs-types": "^0.5.0",
-    "cosmology": "^0.10.3",
+    "cosmology": "^2.6.0",
     "dotenv": "^16.0.2",
     "osmojs": "^0.36.0",
     "redis": "^4.3.0",

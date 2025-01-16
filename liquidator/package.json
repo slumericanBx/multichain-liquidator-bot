@@ -17,10 +17,10 @@
 	"dependencies": {
 		"@aws-sdk/client-secrets-manager": "^3.188.0",
 		"@cosmjs/amino": "^0.29.5",
-		"@cosmjs/cosmwasm-stargate": "^0.29.5",
+		"@cosmjs/cosmwasm-stargate": "^0.33.0",
 		"@cosmjs/crypto": "0.29.5",
 		"@cosmjs/proto-signing": "^0.29.5",
-		"@cosmjs/stargate": "^0.29.5",
+		"@cosmjs/stargate": "^0.33.0",
 		"@cosmology/core": "^1.10.0",
 		"@types/lodash": "^4.14.191",
 		"bignumber": "^1.1.0",
